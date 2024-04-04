@@ -28,9 +28,11 @@ public class ASUHelloWorldJavaFX extends Application {
         	
         	Label eat = new Label("Eat: ");
         	Label drink = new Label("Drink: ");
+        	Label gitChanges = new Label("This is a change");
         	
         	left.getChildren().add(eat);
         	center.getChildren().add(drink);
+        	right.getChildren().add(gitChanges);
         	
             
             flow.getChildren().addAll(left, center, right);
