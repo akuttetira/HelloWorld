@@ -20,19 +20,20 @@ public class ASUHelloWorldJavaFX extends Application {
     public void start(Stage primaryStage) {
  
         	
+    		primaryStage.setTitle("In class GitHub Activity");
         	FlowPane flow = new FlowPane();
         	flow.setPadding(new Insets(11, 12, 13, 14));
         	VBox left = new VBox();
         	VBox center = new VBox();
         	VBox right = new VBox();
         	
+        	Button button = new Button("Anish's second (actually third) commit");
         	Label eat = new Label("Eat: ");
         	Label drink = new Label("Drink: ");
-        	Label gitChanges = new Label("This is a change");
         	
         	left.getChildren().add(eat);
         	center.getChildren().add(drink);
-        	right.getChildren().add(gitChanges);
+        	right.getChildren().add(button);
         	
             
             flow.getChildren().addAll(left, center, right);
